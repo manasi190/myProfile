@@ -17,19 +17,6 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<style>
-		ul {
-  			list-style-type: none;
-  			margin: 0;
-  			padding: 0;
- 			overflow: hidden;
- 			background-color: #000000;
-			height: 80px;
-		   }
-
-		li {
-  			float: right;
-		   }
-
 		li a {
   			display: block;
   			color: white;
@@ -45,10 +32,9 @@
 		.card {
 			float: left;
   			box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
-			height: fit-content;
+			height: wrap-content;
   			width: 300px;
-  			margin: 0;
-			padding: 0;
+  			margin: auto;
   			text-align: center;
   			font-family: arial;
 			background-color: black;
@@ -100,23 +86,28 @@
 
 		</style>
 
-		<ul>
-				<li>
-					<a href="contactMe.html">
-						<h4> Contact </h4>
+		<ul style="list-style-type: none;
+		margin: 0;
+		padding: 0;
+	   overflow: hidden;
+	   background-color: #000000;
+	  height: 80px;">
+				<li style="float: right;">
+					<a href="projects.html">
+						<h4> Projects & More </h4>
 					</a> 
 				</li>
-				<li>
+				<li style="float: right;">
 					<a href="skills.html">
 						<h4> Skills </h4>
 					</a> 
 				</li>
-				<li>
-					<a href="personalDetails.html">
-						<h4> Personal Details </h4>
+				<li style="float: right;">
+					<a href="educationalQ.html">
+						<h4> Educational Qualification </h4>
 					</a> 
 				</li>
-				<li>
+				<li style="float: right;">
 					<a class="active" href="index.html">
 						<h4> Home </h4>
 					</a> 
@@ -129,8 +120,8 @@
   			<img src="profilepic.jpg" alt="Meh." style="border-radius:55%; width:150px; height:150px; margin: 0; padding: 8px;">
 			<br>
   			<h1 style="margin:auto; font-size:20px; padding: 4px;">Manasi Athalye</h1>
-  			<p class="title">Student</p>
-  			<p>Goa University</p>
+  			<p style="color: rgb(173, 167, 167); text-align: justify; padding: 0.8cm;">"As a dedicated life-long learner, I am looking forward to start my career in teaching, coding or web development."</p>
+			<i class="fa fa-graduation-cap" style="color: whitesmoke;"><p class="title" style="color: white; line-height: 25px;">MCA<br><b style="color: #949494;">Goa University</b></p></i>
   			<div style="margin: 24px 0; padding: 4px;">
     				<a href="https://github.com/manasi190"><i class="fa fa-github"></i></a> 
     				<a href="https://twitter.com/Mauuuu___"><i class="fa fa-twitter"></i></a>  
@@ -141,16 +132,34 @@
   
 			</div>
 			<br>
-			<mark> Personal Details </mark>
+			<mark> Projects & More</mark>
 			<br><br>
-
-			<i class="fa fa-calendar"><h5 style="color: black">DOB</h5></i>
-			<h5 style="color: gray">03 Aug 2001</h5>
+			<h3> Web Development </h3>
+			<h5 style="color: gray">
+				<ul style="display: inline-block; text-align: left;">
+					<li>Marvel Webseries and Movies Website</li>
+					<li>eCommerce Website for baking</li>
+				</ul>
+			</h5>
 			<hr>
 
-			<i class="fa fa-graduation-cap"><h5 style="color: black">BSc in Computer Science</h5></i>
-			<h5 style="color: gray">Parvatibai Chowgule College of Arts & Science</h5>
+			<h3> Data Structures and Algorithms </h3>
+			<h5 style="color: gray">
+				<ul style="display: inline-block; text-align: left;">
+					<li>Movie Booking System</li>
+					<li>Tower of Hanoi Game</li>
+				</ul> 
+			</h5>
 			<hr>
+
+			<h3> Object Oriented Programming </h3>
+			<h5 style="color: gray">Mini-Mario Game (2D)</h5>
+			<hr>
+
+			<h3> Android App Development </h3>
+			<h5 style="color: gray">PetPro (Online pet store app)</h5>
+			<hr>
+
 		</div>
 
 	</body>
